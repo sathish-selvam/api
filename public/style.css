@@ -43,11 +43,9 @@ a {
   margin-top: 20px;
 }
 
-.annimation-warpper {
+#particles-js {
   position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0;
   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  width: 100%;
+  height: 100%;
 }
