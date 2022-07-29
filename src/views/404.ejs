@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/style.css" />
+    <title>Page Not Found</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <img src="/static/error_banner.svg" alt="404 - Not Found" />
+      <code class="url"><%= locals.url || "/" %></code>
+      <h1>Opps..This page cannot be found</h1>
+      <p>Have questions? Feel free to reach out me at <code>mail@sathish.dev</code> , or go back to the main page <a href="https://www.sathish.dev" target="_self">Portfolio.</a> and explore the project and see the api for information</p>
+    </div>
+  </body>
+</html>
