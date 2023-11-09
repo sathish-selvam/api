@@ -20,7 +20,9 @@ app.use(morgan());
 app.set("views", path.resolve(__dirname, "views"));
 app.set("view engine", "ejs");
 
+
 // middleware
+
 
 // CRUD
 app.get("/", (req, res) => {
